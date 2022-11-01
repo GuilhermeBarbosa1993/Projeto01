@@ -1,11 +1,40 @@
 body{background-color: black;
 }
+
 h1{background-color: blue;
+    border-radius: 40%;
+    border-style: groove;
 }
+
 h1{color: aqua;
 }
+
 p{color: aqua;
 }
-button{color: rgb(219, 19, 19);}
-button{background:yellowgreen;}
+
+button{color: rgb(240, 236, 236);}
+button{background:rgb(68, 3, 218);}
 h2{color: blue;}
+
+img{
+    border-radius: 20%;
+    padding: 40px;
+    width: 320px;
+
+}
+
+button:hover{
+    color: rgb(45, 8, 207);
+    background-color: rgb(219, 19, 19)
+}
+
+a{
+    color: blue;
+    border: 2px solid;
+    flex-direction: column;
+}
+
+a:hover{
+    color: rgba(235, 243, 242, 0.589);
+    background-color: orangered;
+}
