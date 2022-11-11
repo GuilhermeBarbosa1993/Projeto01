@@ -38,6 +38,14 @@ a:hover{
     color: rgba(235, 243, 242, 0.589);
     background-color: orangered;
 }
+main{
+    display: flex;
+    flex-direction: row;
+}
+embed{
+    display: flex;
+    flex-direction: row;
+}
 footer {
     height:10px;
     background-color: #000000;
